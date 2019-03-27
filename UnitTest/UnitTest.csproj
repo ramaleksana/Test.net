@@ -56,9 +56,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj">
-      <Project>{6dd100dd-ad06-49e6-8e2e-92e8c26a74f2}</Project>
-      <Name>Models</Name>
+    <ProjectReference Include="..\App1\MainApp.csproj">
+      <Project>{ab42ab4c-a5a7-4214-8b8b-c2cfa96b4ecf}</Project>
+      <Name>MainApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessProcess\BusinessProcess.csproj">
+      <Project>{3dc00792-b04b-4d5c-9c38-70cc872d6965}</Project>
+      <Name>BusinessProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{50777d7e-34df-46d2-8b14-eaf79d56a942}</Project>
+      <Name>DataModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
