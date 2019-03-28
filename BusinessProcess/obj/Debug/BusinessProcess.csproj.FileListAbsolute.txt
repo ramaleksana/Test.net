@@ -7,3 +7,5 @@ C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.
 C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.csproj.CopyComplete
 C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.dll
 C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.pdb
+C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\bin\Debug\Dapper.dll
+C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\bin\Debug\Dapper.xml

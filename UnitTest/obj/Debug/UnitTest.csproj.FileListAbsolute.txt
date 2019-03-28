@@ -40,3 +40,6 @@ C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\BusinessProcess.dll
 C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\DataModel.dll
 C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\BusinessProcess.pdb
 C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\DataModel.pdb
+C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\UnitTest.dll.config
+C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\Dapper.dll
+C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\Dapper.xml

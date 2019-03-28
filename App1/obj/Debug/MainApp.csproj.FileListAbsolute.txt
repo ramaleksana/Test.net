@@ -178,3 +178,7 @@ C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\BusinessProcess.dll
 C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\DataModel.dll
 C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\BusinessProcess.pdb
 C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\DataModel.pdb
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.dll
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.SqlServer.dll
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.xml
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.SqlServer.xml
