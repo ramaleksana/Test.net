@@ -4,3 +4,9 @@ C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.csprojAssemb
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.dll
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.pdb
+C:\project\ASP\t2\Test.net\DataModel\bin\Debug\DataModel.dll
+C:\project\ASP\t2\Test.net\DataModel\bin\Debug\DataModel.pdb
+C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
+C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.dll
+C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.pdb
