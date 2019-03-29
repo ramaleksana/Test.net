@@ -9,29 +9,29 @@ namespace BusinessProcess
 {
     public class ModuleManager
     {
+        //public connection
+        SqlConnection x = new SqlConnection("Server=DESKTOP-IM658HL;Database=testapp;Trusted_Connection=True;");
+
         public IEnumerable<DataModel.Module> GetAll()
         {
-            var x = new SqlConnection("Server=DESKTOP-IM658HL;Database=testapp;Trusted_Connection=True;");
-           IEnumerable<DataModel.Module> q =  x.Query<DataModel.Module>("SELECT TOP (1000) [idmodule],[module] FROM [tmodule]").ToList();
-            //var data ;
-            foreach(var item in q)
-            {
-                var data = new DataModel.Module
-                {
-                    Id = "wegfadef",
-                    Name = "adefad"
-                };
-            }
+            //IEnumerable<DataModel.Module> q = x.Query<DataModel.Module>("SELECT TOP (1000) [idmodule] Id,[module] Name FROM [tmodule]").ToList();
+            //var items = x.Query("SELECT TOP (1000) [idmodule] Id,[module] Name FROM [tmodule]").ToList();
+            var q = from item in x.Query("SELECT TOP (1000) [idmodule] Id,[module] Name FROM [tmodule]")
+                    select new DataModel.Module { Id = item.Id.ToString(), Name = item.Name };
+            DataModel.Module[] data = new DataModel.Module[] {
+                new DataModel.Module{Id="1231",Name="test"},
+                new DataModel.Module{Id="131",Name="test1"},
+                new DataModel.Module{Id="121",Name="test2"}
+            };
+            var c = from a in data
+                    select new { a.Id, test = "aaa" + a.Name   };
             return q;
-            //return q.AsEnumerable<string>();
-           
-           
         }
+
         public string Add(DataModel.Module Items)
         {
             try
             {
-                var x = new SqlConnection("Server=DESKTOP-IM658HL;Database=testapp;Trusted_Connection=True;");
                 string id = Guid.NewGuid().ToString();
                 string name = Items.Name;
                 x.Execute("INSERT INTO [tmodule] ([idmodule], [module]) VALUES (@Id ,@Name)", new { Id = id, Name = name });
@@ -47,7 +47,6 @@ namespace BusinessProcess
         {
             try
             {
-                var x = new SqlConnection("Server=DESKTOP-IM658HL;Database=testapp;Trusted_Connection=True;");
                 string id = Items.Id;
                 x.Execute("DELETE FROM [tmodule] WHERE [idmodule] = @Id", new { Id = id});
                 return "Success";
@@ -62,7 +61,6 @@ namespace BusinessProcess
         {
             try
             {
-                var x = new SqlConnection("Server=DESKTOP-IM658HL;Database=testapp;Trusted_Connection=True;");
                 string id = Items.Id;
                 string module = Items.Name;
                 IEnumerable<DataModel.Module> q =  x.Query<DataModel.Module>("SELECT * FROM [tmodule] WHERE [idmodule] = @Id", new { Id = id }).ToList();
@@ -79,7 +77,6 @@ namespace BusinessProcess
             try
             {
                 string module = Items.Name;
-                var x = new SqlConnection("Server=DESKTOP-IM658HL;Database=testapp;Trusted_Connection=True;");
                 int c = Search(Items);
                 if (c > 0)
                 {

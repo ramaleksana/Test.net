@@ -10,15 +10,38 @@ namespace App1.Controllers
     public class ModuleController : ApiController
     {
         // GET: api/Module
-        public IEnumerable<string> Get()
+        public IEnumerable<DataModel.Module> Get()
         {
-            return new string[] { "value1", "value2" };
+            BusinessProcess.ModuleManager mm = new BusinessProcess.ModuleManager();
+            var x = mm.GetAll().Count();
+            return mm.GetAll();
         }
+        //public IHttpActionResult Get()
+        //{
+        //    IList<DataModel.Module> students = null;
+        //    BusinessProcess.ModuleManager mm = new BusinessProcess.ModuleManager();
+        //    var x = mm.GetAll();
+        //    foreach(var item in x)
+        //    {
+        //        students.Add(new DataModel.Module
+        //        {
+        //            Id = item.Id,
+        //            Name = item.Name
+        //        });
+        //    }
+
+        //    if (students.Count == 0)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return Ok(students);
+        //}
 
         // GET: api/Module/5
         public DataModel.Module Get(string id)
         {
-            var data = new DataModel.Module { Id = id, Name = "module1" };
+            DataModel.Module data = new DataModel.Module { Id = id, Name = "module1" };
             return data;
         }
 

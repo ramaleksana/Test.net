@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 namespace UnitTest
 {
@@ -27,13 +28,25 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void Test_Search_Module_Data()
+        public void Test_Update_Module_Data()
         {
             /*Initialize Data*/
             string idm = "41DDD5EB-D8A8-47C7-9243-F0E22D256093";
             var module = new DataModel.Module { Id = idm, Name = "User" };
             BusinessProcess.ModuleManager mm = new BusinessProcess.ModuleManager();
             mm.Update(idm,module);
+        }
+
+        [TestMethod]
+        public void Test_GetAll_Module_Data()
+        {
+            /*Initialize Data*/
+            BusinessProcess.ModuleManager mm = new BusinessProcess.ModuleManager();
+            var x = mm.GetAll().Count();
+            var y = mm.GetAll();
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(mm.GetAll().Count());
         }
     }
 }
