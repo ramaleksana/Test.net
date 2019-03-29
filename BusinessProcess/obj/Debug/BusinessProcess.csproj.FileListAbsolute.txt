@@ -7,6 +7,7 @@ C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.
 C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.csproj.CopyComplete
 C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.dll
 C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\obj\Debug\BusinessProcess.pdb
+<<<<<<< HEAD
 C:\project\ASP\t2\Test.net\BusinessProcess\bin\Debug\BusinessProcess.dll
 C:\project\ASP\t2\Test.net\BusinessProcess\bin\Debug\BusinessProcess.pdb
 C:\project\ASP\t2\Test.net\BusinessProcess\bin\Debug\DataModel.dll
@@ -18,3 +19,7 @@ C:\project\ASP\t2\Test.net\BusinessProcess\obj\Debug\BusinessProcess.dll
 C:\project\ASP\t2\Test.net\BusinessProcess\obj\Debug\BusinessProcess.pdb
 C:\project\ASP\t2\Test.net\BusinessProcess\bin\Debug\Dapper.dll
 C:\project\ASP\t2\Test.net\BusinessProcess\bin\Debug\Dapper.xml
+=======
+C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\bin\Debug\Dapper.dll
+C:\Users\dev02\Documents\RSYS\TestApp\BusinessProcess\bin\Debug\Dapper.xml
+>>>>>>> 9306816ff5d5a5cad82768e99f80b37f829f663f

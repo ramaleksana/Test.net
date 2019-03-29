@@ -40,6 +40,7 @@ C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\BusinessProcess.dll
 C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\DataModel.dll
 C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\BusinessProcess.pdb
 C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\DataModel.pdb
+<<<<<<< HEAD
 C:\project\ASP\t2\Test.net\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\project\ASP\t2\Test.net\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\project\ASP\t2\Test.net\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -85,3 +86,8 @@ C:\project\ASP\t2\Test.net\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.
 C:\project\ASP\t2\Test.net\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 C:\project\ASP\t2\Test.net\UnitTest\obj\Debug\UnitTest.dll
 C:\project\ASP\t2\Test.net\UnitTest\obj\Debug\UnitTest.pdb
+=======
+C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\UnitTest.dll.config
+C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\Dapper.dll
+C:\Users\dev02\Documents\RSYS\TestApp\UnitTest\bin\Debug\Dapper.xml
+>>>>>>> 9306816ff5d5a5cad82768e99f80b37f829f663f

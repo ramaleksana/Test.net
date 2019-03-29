@@ -8,14 +8,14 @@ namespace DataModel
 {
     public class BaseModel
     {
-        [Required, Key]
+        [Key]
         public string Id
         {
             get;
             set;
         }
 
-        [Required]
+        //[Required]
         public string Name
         {
             get;

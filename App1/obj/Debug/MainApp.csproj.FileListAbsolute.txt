@@ -178,6 +178,7 @@ C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\BusinessProcess.dll
 C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\DataModel.dll
 C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\BusinessProcess.pdb
 C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\DataModel.pdb
+<<<<<<< HEAD
 C:\project\ASP\t2\Test.net\App1\bin\App1.dll.config
 C:\project\ASP\t2\Test.net\App1\bin\App1.dll
 C:\project\ASP\t2\Test.net\App1\bin\App1.pdb
@@ -429,3 +430,9 @@ C:\project\ASP\t2\Test.net\App1\bin\ru\DevExpress.Web.Resources.v18.2.resources.
 C:\project\ASP\t2\Test.net\App1\obj\Debug\XtraReport1.resources
 C:\project\ASP\t2\Test.net\App1\obj\Debug\MainApp.csproj.GenerateResource.cache
 C:\project\ASP\t2\Test.net\App1\obj\Debug\App1.dll.licenses
+=======
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.dll
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.SqlServer.dll
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.xml
+C:\Users\dev02\Documents\RSYS\TestApp\App1\bin\EntityFramework.SqlServer.xml
+>>>>>>> 9306816ff5d5a5cad82768e99f80b37f829f663f

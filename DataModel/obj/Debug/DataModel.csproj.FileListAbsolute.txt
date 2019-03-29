@@ -1,12 +1,15 @@
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\bin\Debug\DataModel.dll
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\bin\Debug\DataModel.pdb
-C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.dll
 C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.pdb
+<<<<<<< HEAD
 C:\project\ASP\t2\Test.net\DataModel\bin\Debug\DataModel.dll
 C:\project\ASP\t2\Test.net\DataModel\bin\Debug\DataModel.pdb
 C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
 C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
 C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.dll
 C:\project\ASP\t2\Test.net\DataModel\obj\Debug\DataModel.pdb
+=======
+C:\Users\dev02\Documents\RSYS\TestApp\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
+>>>>>>> 9306816ff5d5a5cad82768e99f80b37f829f663f
